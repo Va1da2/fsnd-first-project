@@ -11,7 +11,7 @@ DEBUG = True
 
 # TODO IMPLEMENT DATABASE URL
 SQLALCHEMY_DATABASE_URI = 'postgres://vaidas@localhost:5432/fyyur'
-
+SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 # Provide env variables to not set thom always though CLI
 FLASK_APP = "fsnd-first-project"
